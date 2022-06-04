@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tester_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/b"
+    tools:context="com.dheeraj.android.ecilproject.TesterRegistration"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="id"
+        android:ems="10"
+        android:id="@+id/testid" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/testpassword" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="phonenumber"
+        android:ems="10"
+        android:id="@+id/testphoneno" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:padding="16dp"
+        android:textSize="18dp"
+        android:text="Register"
+        android:id="@+id/testreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

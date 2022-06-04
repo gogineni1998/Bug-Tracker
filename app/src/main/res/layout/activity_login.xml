@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="16dp"
+    android:background="@drawable/b"
+    tools:context="com.dheeraj.android.ecilproject.Login"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:layout_marginTop="16dp"
+        android:text="Are you Developer?"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1" />
+
+    <CheckBox
+        android:layout_marginTop="16dp"
+        android:text="Are you Manager?"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2" />
+
+    <CheckBox
+        android:layout_marginTop="16dp"
+        android:text="Are you Tester?"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/checkBox3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Id"
+        android:textColor="#FFFFFF"
+        android:id="@+id/logid" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColor="#FFFFFF"
+        android:id="@+id/logpass" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logbutton"
+        android:elevation="24dp" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EcilProject</string>
+    <string name="title_activity_manager_registration">ManagerRegistration</string>
+    <string name="title_activity_tester_registration">TesterRegistration</string>
+</resources>

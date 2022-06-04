@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developer_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.dheeraj.android.ecilproject.DeveloperSettings"
+    android:background="@drawable/b"
+    android:orientation="vertical">
+<Button
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="60dp"
+    android:padding="16dp"
+    android:textSize="16dp"
+    android:id="@+id/registereddevelopersv1"
+    android:text="REGISTERED DEVELOPERS"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Id"
+        android:ems="10"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/adddeveloperid" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Project Title"
+        android:ems="10"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/addprojectid" />
+<Button
+    android:text="ADD"
+    android:textSize="18dp"
+    android:padding="16dp"
+    android:id="@+id/adddeveloper"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
